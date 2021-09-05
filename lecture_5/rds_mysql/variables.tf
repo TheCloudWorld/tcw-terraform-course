@@ -31,14 +31,14 @@ variable "public_access" {
   default     = false
 }
 variable "skip_finalSnapshot" {
-  type = bool
+  type    = bool
   default = true
 }
 variable "delete_automated_backup" {
-  type = bool
+  type    = bool
   default = true
 }
 variable "instance_class" {
-  type = string
+  type    = string
   default = "db.t2.micro"
 }
