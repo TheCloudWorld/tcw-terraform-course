@@ -1,11 +1,11 @@
 #!/bin/bash -xe
 
 # Setpassword & DB Variables
-DBName='tcw'
-DBUser='tcw'
-DBPassword='TheCloudWorld.2019'
-DBRootPassword='TheCloudWorld.2019'
-DBEndpoint='terraform-20210905123305713900000001.csnegqq4qq85.us-east-1.rds.amazonaws.com'
+DBName='DB_NAME'
+DBUser='DB_USER'
+DBPassword='DB_PASSWORD'
+DBRootPassword='DB_PASSWORD'
+DBEndpoint='RDS_DB_ENDPOINT'
 
 # System Updates
 yum -y update
